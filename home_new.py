@@ -557,9 +557,8 @@ class MainMenu:
 
 
 def main():
-    #login_register.main_screen()
     app = App()
     app.mainloop()
 
-main()
+# main()
 

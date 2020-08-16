@@ -53,7 +53,7 @@ def login_verify():
     username_entry1.delete(0, END)
     password_entry1.delete(0, END)
 
-    list_of_files = os.listdir('C:/Users/amare/OneDrive/שולחן העבודה/New folder/users')
+    list_of_files = os.listdir('/Users/hilabh/Documents/final_project/users')
     if username1 in list_of_files:
         file1 = open('users/'+username1,"r")
         verify = file1.read().splitlines()
